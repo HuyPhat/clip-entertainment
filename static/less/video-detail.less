@@ -1,0 +1,25 @@
+.video-detail-page  {
+	#music-section,
+	#entertainment-section {
+		> .row {
+			display: none;
+		}
+	}
+}
+
+.page-video-detail {
+	.navigation {
+		.nmenu-left {
+			li {
+				&:nth-child(1),
+				&:nth-child(2),
+				&:nth-child(3) {
+					a {
+						pointer-events: none;
+						cursor: default;
+					}
+				}
+			}
+		}
+	}
+}
